@@ -10,5 +10,5 @@ fileupload.send_keys("E:\QA CLASS\Assignment1.docx")
 
 driver.find_element(By.ID,"file-submit").click()
 
-time.sleep(5)
+time.sleep(4)
 driver.quit()

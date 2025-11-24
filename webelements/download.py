@@ -6,5 +6,5 @@ driver = webdriver.Chrome()
 driver.get("https://the-internet.herokuapp.com/download")
 
 driver.find_element(By.LINK_TEXT,'text1.txt').click()
-time.sleep(5)
+time.sleep(4)
 driver.quit()
