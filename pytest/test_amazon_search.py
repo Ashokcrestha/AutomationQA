@@ -1,3 +1,7 @@
+#test_amazon_search.py
+
+# run- python -m pytest --alluredir=allure-results--allure serve allure-results
+
 from selenium.webdriver.common.by import By
 import time
 import allure
