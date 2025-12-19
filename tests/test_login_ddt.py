@@ -28,7 +28,7 @@ def test_login_add_to_cart_logout():
                 if "inventory.html" not in driver.current_url:
                     raise Exception("Inventory page NOT opened")
 
-                print("Login successful → Inventory page opened")
+                print("Login successful -> Inventory page opened")
 
                 # Add item to cart
                 driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
